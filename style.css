@@ -42,7 +42,7 @@ section h2 {
 
 .profile-photo {
     display: block;
-    width: 350px;
+    width: 170px;
     height: 200px;
     border-radius: 60%;
     margin: 30px auto;
@@ -55,22 +55,19 @@ section h2 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
 }
-
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;
-    background: #0d0d0d; /* Black Footer */
+    background: #0d0d0d;
     color: #e0e0e0;
 }
-
 footer .social-icons {
     margin: 10px 0;
 }
 
 footer .social-icons a {
     margin: 0 10px;
-    color: #ff0000; /* Red Icons */
+    color: #ff0000;
     font-size: 1.5rem;
     transition: transform 0.3s ease;
 }
